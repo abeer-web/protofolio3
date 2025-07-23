@@ -938,13 +938,11 @@ margin-left: 25px;
     top:0 ;
     left:0;
     background-color:rgb(187, 181, 187);
-    opacity: 0;
-     transition: .5s;
+     transition:  all 0.5s ease-in-out;
 }
 .sec10-item:hover::after{
     height: 100%;
     width: 100%;
-    opacity: .5;
 }
 .sec10-icon{
      z-index: 4;
